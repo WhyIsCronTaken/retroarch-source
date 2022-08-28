@@ -2,7 +2,7 @@
 name: Generate Repo json
 on: 
   release: 
-    types: [published]
+    types: [edited]
 
 jobs:
   generate:
