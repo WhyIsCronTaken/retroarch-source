@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Nightly
         run: wget https://buildbot.libretro.com/nightly/apple/ios-arm64/RetroArch.ipa
+      - name: Get Changelog
         run: wget https://github.com/libretro/RetroArch/raw/master/CHANGES.md
       - name: Release
         uses: softprops/action-gh-release@v1
