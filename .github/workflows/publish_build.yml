@@ -3,7 +3,8 @@ name: Publish Nightly
 on:
   schedule:
     - cron: '0 0 * * 1'
-  workflow_dispatch
+    
+on: workflow_dispatch
 
 jobs:
   build:
