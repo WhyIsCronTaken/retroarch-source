@@ -1,8 +1,7 @@
 
 name: Generate Repo json
 on: 
-  release: 
-    published
+  release: published
 
 jobs:
   generate:
