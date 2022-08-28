@@ -1,12 +1,7 @@
 
 name: Generate
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - 'LICENSE'
-      - '**.md'
+  release: [published]
   repository_dispatch:
 
 jobs:
