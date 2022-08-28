@@ -1,8 +1,6 @@
 
 name: Generate
-on:
-  release: published
-  repository_dispatch:
+on: release
 
 jobs:
   generate:
