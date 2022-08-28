@@ -8,13 +8,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Bump version and push tag
+        uses: laputansoft/github-tag-action@v4.6
+        with:
+          github_token: ${{ env.github-token }}
+          tag: ${{ steps.package-version.outputs.version }}
       - name: Get Nightly
         run: wget https://buildbot.libretro.com/nightly/apple/ios-arm64/RetroArch.ipa
       - name: Release
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
-          tag_name: 
+          tag_name: ${{ steps.package-version.outputs.version }}
           files: RetroArch.ipa
           body_path: libretro/RetroArch-CHANGES.md
           # note you'll typically need to create a personal access token
