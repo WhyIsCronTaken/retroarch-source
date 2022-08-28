@@ -12,7 +12,9 @@ jobs:
         run: wget https://buildbot.libretro.com/nightly/apple/ios-arm64/RetroArch.ipa
       - name: Release
         uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
         with:
+          tag_name: 
           files: RetroArch.ipa
           body_path: libretro/RetroArch-CHANGES.md
           # note you'll typically need to create a personal access token
