@@ -19,3 +19,4 @@ jobs:
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
         env:
           GITHUB_REPOSITORY: WhyIsCronTaken/retroarch-source
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
