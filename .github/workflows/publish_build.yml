@@ -18,7 +18,7 @@ jobs:
         with:
           tag_name: release
           files: RetroArch.ipa
-          body_path: libretro/RetroArch-CHANGES.md
+          body_path: https://github.com/libretro/RetroArch/raw/master/CHANGES.md
           # note you'll typically need to create a personal access token
           # with permissions to create releases in the other repo
           token: ${{ secrets.GITHUB_TOKEN }}
