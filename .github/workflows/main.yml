@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '10.x'
       - name: Run altstore-github
-        run: npx altstore-github --config config.json > index.html
+        run: npx altstore-github --config config.json > repo.json
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
