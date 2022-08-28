@@ -21,7 +21,6 @@ jobs:
           body_path: libretro/RetroArch-CHANGES.md
           # note you'll typically need to create a personal access token
           # with permissions to create releases in the other repo
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_TOKEN }}
         env:
           GITHUB_REPOSITORY: WhyIsCronTaken/retroarch-source
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
