@@ -1,19 +1,21 @@
-name: Publish Release
-on:
-  push:
-    tags:
-      - 'v*'
-  workflow_dispatch:
-  
+name: Publish Nightly
+
+on: workflow_dispatch
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Create a Release
-      uses: elgohr/Github-Release-Action@v4
-      env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-      with:
-        title: MyReleaseMessage
-        file: https://buildbot.libretro.com/nightly/apple/ios-arm64/RetroArch.ipa
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: https://buildbot.libretro.com/nightly/apple/ios-arm64/RetroArch.ipa
+          body_path: libretro/RetroArch-CHANGES.md
+          # note you'll typically need to create a personal access token
+          # with permissions to create releases in the other repo
+          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+        env:
+          GITHUB_REPOSITORY: WhyIsCronTaken/retroarch-source
