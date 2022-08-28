@@ -13,12 +13,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Nightly
         run: wget https://buildbot.libretro.com/nightly/apple/ios-arm64/RetroArch.ipa
+        run: wget https://github.com/libretro/RetroArch/raw/master/CHANGES.md
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: release
           files: RetroArch.ipa
-          body_path: https://github.com/libretro/RetroArch/raw/master/CHANGES.md
+          body_path: CHANGES.md
           # note you'll typically need to create a personal access token
           # with permissions to create releases in the other repo
           token: ${{ secrets.GITHUB_TOKEN }}
