@@ -3,6 +3,9 @@ name: Generate Repo json
 on: 
   release: 
     types: [edited]
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0 * * 1'
 
 jobs:
   generate:
