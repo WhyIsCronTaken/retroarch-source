@@ -6,7 +6,7 @@
   "apps": [
     {
       "name": "RetroArch",
-      "bundleIdentifier": "com.libretro.RetroArch",
+      "bundleIdentifier": "com.libretro.dist.ios.RetroArch",
       "filename": "RetroArch.ipa",
       "githubOwner": "WhyIsCronTaken",
       "githubRepository": "retroarch-source",
