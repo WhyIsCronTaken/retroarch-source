@@ -11,28 +11,6 @@
       "localizedDescription": "RetroArch is a frontend for emulators, game engines and media players.\n\nIt enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.\n\nRetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, machine translation, blind accessibility features, and more!",
       "iconURL": "https://github.com/WhyIsCronTaken/retroarch-source/raw/main/retroarch_icon.png",
       "tintColor": "78209d",
-    },
-    {
-      "name": "uYouPlus (uYou+)",
-      "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "MiRO92 & Qn_",
-      "filename": "uYouPlus_17.34.3_2.1.ipa",
-      "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v17.34.3-2.1/uYouPlus_17.34.3_2.1.ipa",
-      "iconURL": "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/icon_clipped.png",
-      "localizedDescription": "uYouPlus is a modified version of uYou with some extra features! (requires iOS 13.0 and later).\n\nFull infomation about uYouPlus (uYou+) is available on my Github: https://github.com/qnblackcat/uYouPlus/",
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_2393.PNG",
-        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_1522.PNG",
-        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_2394.PNG",
-        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_1523.PNG",
-        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_2395.PNG"
-      ],
-      "size": 111886527,
-      "subtitle": "A modified version of uYou with extra features! Requires iOS 13.0 and later.",
-      "tintColor": "e85567",
-      "version": "17.34.3",
-      "versionDate": "2022-08-31T14:00:00-01:00",
-      "versionDescription": "v17.34.3 (2.1): The changelog can be found at\nhttps://github.com/qnblackcat/uYouPlus/releases/latest"
     }
-  ],
+  ]
 }
