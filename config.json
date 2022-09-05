@@ -11,6 +11,7 @@
       "localizedDescription": "RetroArch is a frontend for emulators, game engines and media players.\n\nIt enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.\n\nRetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, machine translation, blind accessibility features, and more!",
       "iconURL": "https://github.com/WhyIsCronTaken/retroarch-source/raw/main/retroarch_icon.png",
       "tintColor": "78209d",
+      "version": "1.10.5-nightly",
     },
     {
       "name": "uYouPlus",
