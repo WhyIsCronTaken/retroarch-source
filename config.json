@@ -1,8 +1,4 @@
 {
-  "repo": {
-    "name": "Cron's RetroArch Source",
-    "identifier": "com.cron.RetroArch.Demo"
-  },
   "apps": [
     {
       "name": "RetroArch",
