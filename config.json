@@ -11,6 +11,25 @@
       "localizedDescription": "RetroArch is a frontend for emulators, game engines and media players.\n\nIt enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.\n\nRetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, machine translation, blind accessibility features, and more!",
       "iconURL": "https://github.com/WhyIsCronTaken/retroarch-source/raw/main/retroarch_icon.png",
       "tintColor": "78209d",
+    },
+    {
+      "name": "uYouPlus",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "filename": "uYouPlus_17.34.3_2.1.ipa",
+      "githubOwner": "qnblackcat",
+      "githubRepository": "AltStore",
+      "developerName": "MiRO92 & Qn_",
+      "subtitle": "Tweaked version of YouTube with extra features.",
+      "localizedDescription": "A tweaked version of YouTube with extra features. Note: This has to be updated manually.",
+      "iconURL": "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/icon_clipped.png",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_2393.PNG",
+        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_1522.PNG",
+        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_2394.PNG",
+        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_1523.PNG",
+        "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_2395.PNG"
+      ],
+      "tintColor": "e85567",
     }
   ]
 }
