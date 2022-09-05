@@ -18,8 +18,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-      - name: Run altstore-github
+      - name: update normal source
         run: npx altstore-github --config config.json > index.html
+      - name: update bypass source
+        run: npx altstore-github --config config.json > apps-safe.json
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
